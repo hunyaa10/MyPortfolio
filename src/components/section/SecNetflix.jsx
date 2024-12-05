@@ -3,7 +3,7 @@ import "../../style/commonStyle.css";
 import useObserver from "../../hook/useObserver";
 
 import LinkIcon from "../../assets/link.svg";
-import Logo from "../../image/title-logo/netflix.png";
+import Logo from "../../image/title-logo/NETFLIX.png";
 import MockUpImg from "../../image/mock-up/netflix-mu.png";
 
 import ReactLogo from "../../image/stack-logo/react.png";
