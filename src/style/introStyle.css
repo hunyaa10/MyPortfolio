@@ -1,0 +1,123 @@
+.intro-container {
+  padding: 4rem;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff9f5;
+  position: relative;
+}
+
+.intro_title {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title_line-left {
+  width: 75%;
+  height: 2px;
+  background-color: #666;
+}
+.title_line-right {
+  width: 10%;
+  height: 2px;
+  background-color: #666;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  @media screen and (max-width: 1440px) {
+    font-size: 2rem;
+  }
+}
+
+.intro_info {
+  width: 100%;
+  height: 95%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_profile {
+  width: 25%;
+}
+
+.info_text {
+  width: 70%;
+}
+.info_greeting-text {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  @media screen and (max-width: 1440px) {
+    font-size: 1.5rem;
+  }
+}
+.info_greeting-text span {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  @media screen and (max-width: 1440px) {
+    font-size: 2rem;
+  }
+}
+.detail-text {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  @media screen and (max-width: 1440px) {
+    font-size: 1.1rem;
+  }
+}
+.detail_title {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  @media screen and (max-width: 1440px) {
+    font-size: 1rem;
+  }
+}
+.detail_education-date {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  @media screen and (max-width: 1440px) {
+    font-size: 0.8rem;
+  }
+}
+.detail_skill-images {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.detail_skill-images img {
+  width: 80px;
+  @media screen and (max-width: 1440px) {
+    width: 50px;
+  }
+}
+
+.link-notion {
+  margin-top: 3rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+.link-notion a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  @media screen and (max-width: 1440px) {
+    font-size: 1.2rem;
+  }
+}
+.icon {
+  width: 32px;
+  @media screen and (max-width: 1440px) {
+    width: 24px;
+  }
+}
