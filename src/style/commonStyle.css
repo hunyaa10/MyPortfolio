@@ -230,3 +230,11 @@
     width: 500px;
   }
 }
+.contents_image .phone-img {
+  margin: 0 2rem;
+  width: 300px;
+
+  @media (max-width: 1440px) {
+    width: 200px;
+  }
+}

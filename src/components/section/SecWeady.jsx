@@ -4,6 +4,8 @@ import useObserver from "../../hook/useObserver";
 
 import LinkIcon from "../../assets/link.svg";
 import Logo from "../../image/title-logo/WEADY.png";
+import MockUp01 from "../../image/mock-up/weady-mu-1.png";
+import MockUp02 from "../../image/mock-up/weady-mu-2.png";
 import ReactNativeLogo from "../../image/stack-logo/react-native.png";
 import JSLogo from "../../image/stack-logo/js.png";
 import ExpoLogo from "../../image/stack-logo/expo.png";
@@ -43,7 +45,10 @@ const SecWeady = () => {
         </div>
       </div>
       <div className="contents">
-        <div className="contents_image"></div>
+        <div className="contents_image">
+          <img src={MockUp01} alt="mockup-1" className="phone-img" />
+          <img src={MockUp02} alt="mockup-2" className="phone-img" />
+        </div>
 
         <DividingLine isInView={isInView} />
 
