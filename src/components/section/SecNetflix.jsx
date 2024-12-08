@@ -58,11 +58,17 @@ const SecNetflix = () => {
           <div className="info_link">
             <h2 className="info_sub-title">작업 링크</h2>
             <div className="info_link-box">
-              <a href="#">
+              <a
+                href="https://github.com/hunyaa10/NetflixClone"
+                target="_blank"
+              >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
                 깃허브 링크
               </a>
-              <a href="#">
+              <a
+                href="https://polydactyl-chopper-e2c.notion.site/_-10eae95d4a5e8077a091c0fef944cd1b"
+                target="_blank"
+              >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
                 노션 링크
               </a>

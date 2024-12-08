@@ -105,7 +105,10 @@ const MainIntro = () => {
         </div>
       </div>
       <div className="link-notion">
-        <a href="#">
+        <a
+          href="https://polydactyl-chopper-e2c.notion.site/11eae95d4a5e8061b1b8dbbe1d4399c9?v=e19c99840efb4a2aa456137c65e29329&pvs=4"
+          target="_blank"
+        >
           <img src={LinkIcon} alt="link-icon" className="icon" />
           전체 노션페이지 바로가기
         </a>
