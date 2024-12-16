@@ -75,13 +75,13 @@ const MainIntro = () => {
                 <h4 className="detail_title">Education.</h4>
                 <p style={{ marginBottom: "0.5rem" }}>
                   <span className="detail_education-date">
-                    2023.11 - 2024.08
+                    2023.11 - 2024.07
                   </span>
                   SBS컴퓨터학원 퍼블리셔과정 & 웹기초과정 이수
                 </p>
                 <p>
                   <span className="detail_education-date">
-                    2024.08 - 2024.11
+                    2024.08 - 2024.12
                   </span>
                   슈퍼코딩 프론트엔드 부트캠프 이수
                 </p>
