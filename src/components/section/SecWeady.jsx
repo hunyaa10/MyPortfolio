@@ -71,14 +71,14 @@ const SecWeady = () => {
             <div className="info_link-box">
               <a href="https://github.com/hunyaa10/Weady" target="_blank">
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                깃허브 링크
+                깃허브
               </a>
               <a
-                href="https://polydactyl-chopper-e2c.notion.site/_-135ae95d4a5e80a0ace1e6497ae7a34f"
+                href="https://polydactyl-chopper-e2c.notion.site/_WEADY-173ae95d4a5e812681cdf74206e7cb9b?pvs=4"
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                노션 링크
+                노션 기획안
               </a>
             </div>
           </div>

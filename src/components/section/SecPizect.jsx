@@ -66,14 +66,18 @@ const SecPizect = () => {
             <div className="info_link-box">
               <a href="https://github.com/hunyaa10/pizect" target="_blank">
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                깃허브 링크
+                깃허브
               </a>
               <a
-                href="https://polydactyl-chopper-e2c.notion.site/_-11fae95d4a5e806b8496c8818dfcb221"
+                href="https://polydactyl-chopper-e2c.notion.site/_Pizect-173ae95d4a5e819caa5bf6ccf755d9ab?pvs=4"
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                노션 링크
+                노션 기획안
+              </a>
+              <a href="https://pizect.vercel.app/" target="_blank">
+                <img src={LinkIcon} alt="link-icon" className="link-icon" />
+                배포 사이트
               </a>
             </div>
           </div>

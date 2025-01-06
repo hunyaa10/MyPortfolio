@@ -7,6 +7,7 @@ import Logo from "../../image/title-logo/RUNTO.png";
 import MockUpImg from "../../image/mock-up/runto-mu.png";
 
 import ReactLogo from "../../image/stack-logo/react.png";
+import ReduxLogo from "../../image/stack-logo/react-redux.png";
 import JSLogo from "../../image/stack-logo/js.png";
 import GitHubLogo from "../../image/stack-logo/github.png";
 import FigmaLogo from "../../image/stack-logo/figma.png";
@@ -63,14 +64,18 @@ const SecRunto = () => {
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                깃허브 링크
+                깃허브
               </a>
               <a
-                href="https://polydactyl-chopper-e2c.notion.site/_-742b2d5e1e2f456aa3a55f2c89acbe17"
+                href="https://polydactyl-chopper-e2c.notion.site/_RUNTO-173ae95d4a5e811bb3f3ebcca46a9850?pvs=4"
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                노션 링크
+                노션 기획안
+              </a>
+              <a href="https://runto.vercel.app/" target="_blank">
+                <img src={LinkIcon} alt="link-icon" className="link-icon" />
+                배포 사이트
               </a>
             </div>
           </div>
@@ -78,6 +83,7 @@ const SecRunto = () => {
             <h2 className="info_sub-title">기술 스택</h2>
             <div className="info_stack-list">
               <img src={ReactLogo} alt="react-logo" />
+              <img src={ReduxLogo} alt="redux-logo" />
               <img src={JSLogo} alt="js-logo" />
               <img src={AxiosLogo} alt="axios-logo" />
               <img src={GitHubLogo} alt="github-logo" />

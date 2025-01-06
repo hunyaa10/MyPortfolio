@@ -88,13 +88,20 @@
     font-size: 0.8rem;
   }
 }
-.detail_skill-images {
+.detail_skill-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.detail_skill-imgs {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
-.detail_skill-images img {
+.detail_skill-imgs img {
   width: 80px;
+  border-radius: 0.5rem;
+
   @media screen and (max-width: 1440px) {
     width: 50px;
   }

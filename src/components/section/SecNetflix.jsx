@@ -63,14 +63,21 @@ const SecNetflix = () => {
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                깃허브 링크
+                깃허브
               </a>
               <a
-                href="https://polydactyl-chopper-e2c.notion.site/_-10eae95d4a5e8077a091c0fef944cd1b"
+                href="https://polydactyl-chopper-e2c.notion.site/_Netflex-173ae95d4a5e812ead16c6c26b47f710?pvs=4"
                 target="_blank"
               >
                 <img src={LinkIcon} alt="link-icon" className="link-icon" />
-                노션 링크
+                노션 기획안
+              </a>
+              <a
+                href="https://netflix-clone-black-eta.vercel.app/"
+                target="_blank"
+              >
+                <img src={LinkIcon} alt="link-icon" className="link-icon" />
+                배포 사이트
               </a>
             </div>
           </div>
