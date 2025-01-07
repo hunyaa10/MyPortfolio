@@ -59,12 +59,21 @@ const SecWeady = () => {
             className="info_logo info_logo-weady"
           />
           <div className="info_script">
-            <li>개인 프로젝트</li>
-            <li>2024.11.27 ~ 2024.12.07</li>
-            <li>
+            <li className="script-title">개인 프로젝트</li>
+            <li className="script-date">2024.11.27 ~ 2024.12.07</li>
+            <li className="script-des">
               OpenWeatherAPI와 OpenAI를 활용하여 날씨를 기반으로 한 오늘의 코디
               추천어플을 만들었습니다.
             </li>
+          </div>
+          <div className="info_works">
+            <h2 className="info_sub-title">주요 기능</h2>
+            <div className="info_works-box">
+              <li>사용자 위치기반 날씨정보</li>
+              <li>타지역 날씨정보</li>
+              <li>Ai 성격 설정</li>
+              <li>Ai와 채팅 및 코디추천</li>
+            </div>
           </div>
           <div className="info_link">
             <h2 className="info_sub-title">작업 링크</h2>

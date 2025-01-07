@@ -49,12 +49,21 @@ const SecRunto = () => {
         <div className="contents_info">
           <img src={Logo} alt="runto-logo" className="info_logo" />
           <div className="info_script">
-            <li>팀 프로젝트(팀장)</li>
-            <li>2024.10.14 ~ 2024.11.15</li>
-            <li>
+            <li className="script-title">팀 프로젝트(팀장)</li>
+            <li className="script-date">2024.10.14 ~ 2024.11.15</li>
+            <li className="script-des">
               백앤드와 협업을 통해 런닝소모임을 개설하고 참여할 수 있는
               소통가능한 소셜사이트를 만들었습니다.
             </li>
+          </div>
+          <div className="info_works">
+            <h2 className="info_sub-title">맡은 작업</h2>
+            <div className="info_works-box">
+              <li>날씨공공api & 테마적용(redux)</li>
+              <li>사용자 위치적용</li>
+              <li>모임 필터링</li>
+              <li>상세페이지 & 카카오지도연결</li>
+            </div>
           </div>
           <div className="info_link">
             <h2 className="info_sub-title">작업 링크</h2>

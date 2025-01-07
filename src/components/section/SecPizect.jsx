@@ -54,12 +54,21 @@ const SecPizect = () => {
         <div className="contents_info">
           <img src={Logo} alt="pizect-logo" className="info_logo" />
           <div className="info_script">
-            <li>개인 프로젝트</li>
-            <li>2024.10.23 ~ 2024.11.10</li>
-            <li>
+            <li className="script-title">개인 프로젝트</li>
+            <li className="script-date">2024.10.23 ~ 2024.11.10</li>
+            <li className="script-des">
               Firebase를 사용하여 데이터를 관리하고, dnd-kit를 활용해 목록
               순서를 조정하는 일정 및 업무 공유 사이트를 만들었습니다.
             </li>
+          </div>
+          <div className="info_works">
+            <h2 className="info_sub-title">주요 기능</h2>
+            <div className="info_works-box">
+              <li>구글 연동 로그인</li>
+              <li>react-calendar 라이브러리</li>
+              <li>공지 및 업무 등록/수정/삭제</li>
+              <li>dnd-kit를 사용한 목록 순서변경</li>
+            </div>
           </div>
           <div className="info_link">
             <h2 className="info_sub-title">작업 링크</h2>

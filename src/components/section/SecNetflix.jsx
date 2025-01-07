@@ -47,13 +47,22 @@ const SecNetflix = () => {
         <div className="contents_info">
           <img src={Logo} alt="netflix-logo" className="info_logo" />
           <div className="info_script">
-            <li>개인 프로젝트</li>
-            <li>2024.09.29 ~ 2024.10.13</li>
-            <li>
+            <li className="script-title">개인 프로젝트</li>
+            <li className="script-date">2024.09.29 ~ 2024.10.13</li>
+            <li className="script-des">
               TMDB의 오픈 API와 TypeScript를 활용하여 다양한 콘텐츠 목록을
               표시하고, 넷플릭스 사이트의 기능과 애니메이션 효과를 구현한
               사이트를 만들었습니다.
             </li>
+          </div>
+          <div className="info_works">
+            <h2 className="info_sub-title">주요 기능</h2>
+            <div className="info_works-box">
+              <li>로컬스토리지를 통한 로그인</li>
+              <li>키워드 검색</li>
+              <li>슬라이드 애니메이션</li>
+              <li>사용자가 선택한 컨텐츠 분리</li>
+            </div>
           </div>
           <div className="info_link">
             <h2 className="info_sub-title">작업 링크</h2>
