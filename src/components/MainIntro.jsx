@@ -24,7 +24,7 @@ const MainIntro = () => {
   const { lineRef, titleRef, isInView } = useObserver();
 
   return (
-    <main className="wrapper">
+    <main className="wrapper wrapper_profile">
       <div className="title-container">
         <div className="line_box-long">
           <span className="title_line-long" />

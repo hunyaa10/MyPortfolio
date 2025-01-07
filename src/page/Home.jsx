@@ -4,6 +4,7 @@ import SecRunto from "../components/section/SecRunto";
 import SecPizect from "../components/section/SecPizect";
 import SecNetflix from "../components/section/SecNetflix";
 import SecWeady from "../components/section/SecWeady";
+import Topbtn from "../components/custom/Topbtn";
 
 const Home = () => {
   const isScrolling = useRef(false);
@@ -55,7 +56,7 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <div className="all_wrapper">
       <div id="scroll">
         <MainIntro />
       </div>
@@ -71,7 +72,8 @@ const Home = () => {
       <div id="scroll">
         <SecWeady />
       </div>
-    </>
+      <Topbtn />
+    </div>
   );
 };
 

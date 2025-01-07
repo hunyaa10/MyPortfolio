@@ -1,3 +1,7 @@
+.all_wrapper {
+  position: relative;
+}
+
 .wrapper {
   padding: 3rem 4rem;
   width: 100%;
@@ -5,6 +9,9 @@
   background-color: #fff9f5;
   position: relative;
   overflow: hidden;
+}
+.wrapper_profile {
+  z-index: 1000;
 }
 
 .title-container {
